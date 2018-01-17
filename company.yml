@@ -28,4 +28,4 @@ spring:
 spring:
   profiles: cloud
 
-message: Purple squirrels are awesome
+message: Rainbow cats will be defeated
