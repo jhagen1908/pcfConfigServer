@@ -7,7 +7,10 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
 
-  profiles: local
+---
+
+spring:
+    profiles: local
    
     jpa:
       properties:
@@ -19,8 +22,10 @@ spring:
       username: user
       password: password
       driver-class-name: com.mysql.jdbc.Driver
-      
-  profiles: production
-  
-message: Purple squirrels are the greatest
+
+
+---
+
+spring:
+    profiles: production
 
