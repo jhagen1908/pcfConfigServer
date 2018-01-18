@@ -1,17 +1,11 @@
---- 
-endpoints: 
-  sensitive: false
-message: "Nightshroud is the best class"
-server: 
-  port: 8100
-spring: 
-  jackson: 
-    default-property-inclusion: NON_NULL
-  jpa: 
-    hibernate: 
+---
+spring:
+  jpa:
+    hibernate:
       ddl-auto: update
     show-sql: true
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://jhagen1908:timmy@eureka-nonradiating-footnote.cfapps.io/eureka
+  jackson:
+    default-property-inclusion: NON_NULL
+
+endpoints:
+  sensitive: false
