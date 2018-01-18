@@ -15,3 +15,8 @@ eureka:
   server:
     waitTimeInMsWhenSyncEmpty: 0
     enableSelfPreservation: false
+
+security:
+  user:
+    name: jhagen1908
+    password: timmy
