@@ -1,17 +1,13 @@
----
-
-spring:
-  jpa:
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-  jackson:
+--- 
+endpoints: 
+  sensitive: false
+message: "Nightshroud is the best class"
+server: 
+  port: 8100
+spring: 
+  jackson: 
     default-property-inclusion: NON_NULL
- 
- endpoints:
-   sensitive: false
- 
- server:
-   port: 8100
-  
- message: Nightshroud is the best class
+  jpa: 
+    hibernate: 
+      ddl-auto: update
+    show-sql: true
